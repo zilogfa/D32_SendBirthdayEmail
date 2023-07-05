@@ -1,4 +1,12 @@
 # D32: Sending Birthday Email - Dev: Ali Jafarbeglou 2022
+"""
+Birthday Email Sender
+Automated Birthday Emails with Customizable Templates
+This console app is written in Python and uses SMTPLIB, Pandas and DateTime to generate and send automated birthday emails with letter templates. You can provide people’s information as a CSV file to automate sending birthday emails on their birthday. The CSV file should include the name, birthday month, date and year, and their email.
+• Automated email sending on people’s birthdays
+• Customizable letter templates
+• Easy to use CSV file format for people’s information
+"""
 
 import datetime as dt
 import pandas
