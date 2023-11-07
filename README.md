@@ -2,14 +2,14 @@
 A simple Python application designed to send automated birthday wishes via email. Utilizing smtplib, pandas, and datetime, it checks a CSV file for birthdays that match the current date and sends a personalized email using one of several customizable templates.
 
 ## Features
-_ Automated Email Sending: Sends out birthday wishes without manual intervention.
-_ Customizable Letter Templates: Personalize birthday messages using template files.
-_ CSV Integration: Manages birthdays and email addresses using a CSV file.
+- Automated Email Sending: Sends out birthday wishes without manual intervention.
+- Customizable Letter Templates: Personalize birthday messages using template files.
+- CSV Integration: Manages birthdays and email addresses using a CSV file.
 
 ## Dependencies
-_ Pandas: For reading and processing the CSV file.
-_ Datetime: For handling dates.
-_ smtplib: For sending emails through an SMTP server.
+- Pandas: For reading and processing the CSV file.
+- Datetime: For handling dates.
+- smtplib: For sending emails through an SMTP server.
 
 ## Setup
 1. Ensure Python 3.x is installed on your system.
@@ -28,8 +28,8 @@ pip install pandas
 5. Place your email templates in the letter_templates directory and ensure they are named in the format letter_1.txt, letter_2.txt, etc.
 
 ## Usage
-_ Run main.py to start the email sender. It will check the current date against the birthdays listed in birthdays.csv.
-_ If there's a match, it will send a customized email to the birthday person using a random template from the letter_templates directory.
+-Run main.py to start the email sender. It will check the current date against the birthdays listed in birthdays.csv.
+_ f there's a match, it will send a customized email to the birthday person using a random template from the letter_templates directory.
 
 
 ## Note
