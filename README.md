@@ -28,8 +28,8 @@ pip install pandas
 5. Place your email templates in the letter_templates directory and ensure they are named in the format letter_1.txt, letter_2.txt, etc.
 
 ## Usage
--Run main.py to start the email sender. It will check the current date against the birthdays listed in birthdays.csv.
-_ f there's a match, it will send a customized email to the birthday person using a random template from the letter_templates directory.
+- Run main.py to start the email sender. It will check the current date against the birthdays listed in birthdays.csv.
+- f there's a match, it will send a customized email to the birthday person using a random template from the letter_templates directory.
 
 
 ## Note
